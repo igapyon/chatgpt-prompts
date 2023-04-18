@@ -1,2 +1,8 @@
-# chatgpt-prompts
-ChatGPT Prompts
+# ChatGPT に与える初期プロンプト集
+
+ChatGPT に与える初期プロンプト集です。
+
+主にプログラミング言語の初期プロンプトが与えられることでしょう。
+
+
+
