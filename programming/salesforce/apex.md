@@ -23,6 +23,7 @@ For more information regarding the Apex programming language can be found at the
 https://trailhead.salesforce.com/ja/content/learn/modules/apex_database/apex_database_intro
 
 - Use 57.0 as `apiVersion`.
-- 可変な内容を返却するために、Apex に記述する `@AuraEnabled` の `cacheable` は `false` で生成してください。
+- In the case of the `@AuraEnabled` statement is needed, specify `false` for `cacheable` to return variable content.
+- Write comments in Javadoc format, not ApexDoc format.
 
 If you understand, reply OK simply.
