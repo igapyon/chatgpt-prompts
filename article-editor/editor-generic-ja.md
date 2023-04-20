@@ -7,4 +7,12 @@ Role play the role of a professional editor and perform the following for the st
 - Provide additional explanations where explanations are lacking.
 - Create and supplement headings for paragraph-by-paragraph cohesion.
 
+# Output format
+
+Output as plain text in Markdown.
+
+```
+Output here.
+```
+
 If you understand, reply OK simply.

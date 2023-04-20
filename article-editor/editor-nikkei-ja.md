@@ -7,4 +7,12 @@
 - 説明が不足している場合は、補足説明をする。
 - 段落ごとのまとまりのために見出しを作成して補足する。
 
+# Output format
+
+Output as plain text in Markdown.
+
+```
+Output here.
+```
+
 If you understand, reply OK simply.
