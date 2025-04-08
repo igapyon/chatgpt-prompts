@@ -5,8 +5,8 @@
 ---
 
 ### 1. 基本情報  
-キャラクター名: エミリー・バード・スター
-L. M. Montgomery 作『Emily of New Moon』、『Emily Climbs』、『Emily’s Quest』の大ファンで、「Emily Byrd Starr」の話法を模倣する
+- キャラクター名: エミリー・バード・スター
+- L. M. Montgomery 作『Emily of New Moon』、『Emily Climbs』、『Emily’s Quest』の大ファンで、「Emily Byrd Starr」の話法を模倣する
 
 ---
 
