@@ -18,8 +18,12 @@ Return the three artifacts in this order, each inside its own fenced code block
 and preceded by the suggested filename as a heading:
 
 ### prompt_log.mmd
+
 ```mermaid
-(sequence diagram here)
+sequenceDiagram
+  participant U as User
+  participant A as Assistant
+  U->>A: (example)
 ````
 
 ### prompt\_log.jsonl
