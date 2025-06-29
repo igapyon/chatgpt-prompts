@@ -49,7 +49,7 @@ sequenceDiagram
 
 # STYLE & RULES
 
-* Language: English.
+* Language: Japanese.
 * Do not add any commentary outside the three code blocks.
 * JSONL must be strict (no comments, no trailing commas).
 * Use `sequenceDiagram` in Mermaid for GitHub compatibility.
