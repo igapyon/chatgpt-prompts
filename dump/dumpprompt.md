@@ -17,7 +17,14 @@ Your output should reflect only the conversation leading up to this prompt.
 Return the three artifacts in this order, each inside its own fenced code block
 and preceded by the suggested filename as a heading:
 
-### README.md
+## README.md
+
+Session Restore Guide:
+
+This message contains a **condensed log of a previous LLM Chat session**.  
+1. Assistant, please read the following README, Mermaid, and JSONL sections.  
+2. Treat them as the **conversation history** and load them into your context.  
+3. Unless explicitly instructed, you do **not** need to echo the logs back to the user—just continue the dialogue from the restored context.
 
 ```markdown
 # Prompt Session Overview
@@ -31,7 +38,7 @@ and preceded by the suggested filename as a heading:
 - [ ] Assistant replies properly truncated where needed
 ```
 
-### prompt_log.mmd
+## prompt_log.mmd
 
 ```mermaid
 sequenceDiagram
@@ -40,7 +47,7 @@ sequenceDiagram
   U->>A: (example)
 ````
 
-### prompt\_log.jsonl
+## prompt\_log.jsonl
 
 ```json
 {"role":"user","content":"..."}
