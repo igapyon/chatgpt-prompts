@@ -1,4 +1,4 @@
-# DumpPrompt v20250629a
+# DumpPrompt v20250630a
 
 # TASK
 Using only the conversation history **before this message** (exclude this task prompt),
@@ -17,6 +17,20 @@ Your output should reflect only the conversation leading up to this prompt.
 Return the three artifacts in this order, each inside its own fenced code block
 and preceded by the suggested filename as a heading:
 
+### README.md
+
+```markdown
+# Prompt Session Overview
+**Purpose**: …
+**Background**: …
+
+## Review Checklist
+- [ ] Technical accuracy
+- [ ] Tone / character consistency
+- [ ] Sensitive info redacted
+- [ ] Assistant replies properly truncated where needed
+```
+
 ### prompt_log.mmd
 
 ```mermaid
@@ -31,20 +45,6 @@ sequenceDiagram
 ```json
 {"role":"user","content":"..."}
 {"role":"assistant","content":"[Content Omitted for Brevity]"}
-```
-
-### README.md
-
-```markdown
-# Prompt Session Overview
-**Purpose**: …
-**Background**: …
-
-## Review Checklist
-- [ ] Technical accuracy
-- [ ] Tone / character consistency
-- [ ] Sensitive info redacted
-- [ ] Assistant replies properly truncated where needed
 ```
 
 # STYLE & RULES
