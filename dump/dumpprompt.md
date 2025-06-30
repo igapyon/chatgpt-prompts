@@ -1,4 +1,4 @@
-# DumpPrompt v20250629a
+# DumpPrompt v20250630c
 
 # TASK
 Using only the conversation history **before this message** (exclude this task prompt),
@@ -17,25 +17,20 @@ Your output should reflect only the conversation leading up to this prompt.
 Return the three artifacts in this order, each inside its own fenced code block
 and preceded by the suggested filename as a heading:
 
-### prompt_log.mmd
-
-```mermaid
-sequenceDiagram
-  participant U as User
-  participant A as Assistant
-  U->>A: (example)
-````
-
-### prompt\_log.jsonl
-
-```json
-{"role":"user","content":"..."}
-{"role":"assistant","content":"[Content Omitted for Brevity]"}
-```
-
-### README.md
+## README.md
 
 ```markdown
+<!--
+⏪ Session Restore Guide
+This README, plus prompt_log.mmd and prompt_log.jsonl, constitute a condensed log
+of a previous ChatGPT session.
+
+📌 How to use in a new session:
+1. Paste these three fenced blocks into the first message.
+2. The assistant should treat them as prior conversation history.
+3. Unless explicitly asked, do NOT echo the logs back—just continue the dialogue.
+-->
+
 # Prompt Session Overview
 **Purpose**: …
 **Background**: …
@@ -45,6 +40,22 @@ sequenceDiagram
 - [ ] Tone / character consistency
 - [ ] Sensitive info redacted
 - [ ] Assistant replies properly truncated where needed
+```
+
+## prompt_log.mmd
+
+```mermaid
+sequenceDiagram
+  participant U as User
+  participant A as Assistant
+  U->>A: (example)
+````
+
+## prompt\_log.jsonl
+
+```json
+{"role":"user","content":"..."}
+{"role":"assistant","content":"[Content Omitted for Brevity]"}
 ```
 
 # STYLE & RULES
