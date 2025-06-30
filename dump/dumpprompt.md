@@ -1,4 +1,4 @@
-# DumpPrompt v20250630a
+# DumpPrompt v20250630c
 
 # TASK
 Using only the conversation history **before this message** (exclude this task prompt),
@@ -19,14 +19,18 @@ and preceded by the suggested filename as a heading:
 
 ## README.md
 
-Session Restore Guide:
-
-This message contains a **condensed log of a previous LLM Chat session**.  
-1. Assistant, please read the following README, Mermaid, and JSONL sections.  
-2. Treat them as the **conversation history** and load them into your context.  
-3. Unless explicitly instructed, you do **not** need to echo the logs back to the user—just continue the dialogue from the restored context.
-
 ```markdown
+<!--
+⏪ Session Restore Guide
+This README, plus prompt_log.mmd and prompt_log.jsonl, constitute a condensed log
+of a previous ChatGPT session.
+
+📌 How to use in a new session:
+1. Paste these three fenced blocks into the first message.
+2. The assistant should treat them as prior conversation history.
+3. Unless explicitly asked, do NOT echo the logs back—just continue the dialogue.
+-->
+
 # Prompt Session Overview
 **Purpose**: …
 **Background**: …
