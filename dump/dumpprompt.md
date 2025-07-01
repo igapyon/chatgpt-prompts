@@ -7,6 +7,7 @@ create three share-and-review artifacts:
 1. **Mermaid sequence diagram** – overview of the dialogue (GitHub-compatible).
 2. **JSONL file** – one JSON line per utterance, fields: role + content only.
 - For long assistant replies, truncate with: `[Content Omitted for Brevity]`
+- For character style/persona prompts (e.g., instructions that define AI speech patterns or personas), replace content with `[Persona Setup Omitted for Brevity]`
 3. **Markdown README** – purpose / background and a review checklist.
 
 # IMPORTANT:
