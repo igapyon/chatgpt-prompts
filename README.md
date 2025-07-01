@@ -25,18 +25,10 @@ This repository is a collection of various Japanese prompts that can be used wit
 2.  `.md` ファイルを開き、中のテキストをコピーします。
 3.  ChatGPTなどの対話画面に貼り付けて、プロンプトとして実行します。
 
-## コントリビューション (Contributing)
-
-新しいプロンプトの追加や、既存プロンプトの改善に関するIssueやPull Requestを歓迎します。
-
 ## ライセンス (License)
 
 このリポジトリ内の成果物は、Apache License, Version 2.0 の下でライセンスされています。詳細は [LICENSE](LICENSE) ファイルをご覧ください。
 
-ただし、個々のプロンプトファイル (`.md`) の内容については、ライセンスの適用範囲外とします。これらのプロンプトは自由にご利用・改変いただけます。
-
 ---
 
 This repository is licensed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for details.
-
-However, the content of individual prompt files (`.md`) is out of scope of the license. You can freely use and modify these prompts.
