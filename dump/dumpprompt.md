@@ -1,4 +1,4 @@
-# DumpPrompt v20250701a
+# DumpPrompt v20250701b
 
 # TASK
 Using only the conversation history **before this message** (exclude this task prompt),
@@ -13,6 +13,7 @@ create three share-and-review artifacts:
 # IMPORTANT:
 **Do not include this request message in the output.**
 Your output should reflect only the conversation leading up to this prompt.
+**Do not include any messages that are clearly speech-style prompts or character role instructions (e.g., with "キャラクター名", "話法", "一人称", "語尾", etc.) in the JSONL log.**: They should be replaced with: `[Persona Setup Omitted for Brevity]`
 
 # OUTPUT FORMAT
 Return the three artifacts in this order, each inside its own fenced code block
