@@ -1,13 +1,42 @@
-# Primary prompts for ChatGPT
+# ChatGPT プロンプト集 (Japanese Prompts for ChatGPT)
 
-## en
+Copyright 2025 Toshiki Iga
 
-Firstly, there is a note. This repository is an experimental attempt related to ChatGPT.
-This repository is a collection of primary prompts to be given to ChatGPT.
-The primary prompts will be given mainly in programming languages.
+このリポジトリは、ChatGPTをはじめとする生成AIで利用できる、様々な日本語プロンプTをまとめたものです。
 
-## ja
+This repository is a collection of various Japanese prompts that can be used with Generative AI, including ChatGPT.
 
-最初に注意があります。このリポジトリは ChatGPT に関する実験的な試みである点です。
-このリポジトリは、ChatGPT に与える初期プロンプトを集めたものです。
-初期のうちは、主にプログラミング言語の初期プロンプトが与えられていくことでしょう。
+## 概要 (Overview)
+
+日常的なタスクから専門的な作業まで、幅広い用途で使えるプロンプトをカテゴリ別に分類しています。コピー＆ペーストしてすぐに使えるように、各プロンプトは個別のMarkdownファイルとして管理されています。
+
+## 主なプロンプトカテゴリ (Categories)
+
+*   **記事編集 (Article Editing):** 新聞記事や一般的な文章の校正・編集用プロンプト
+*   **キャラクター (Character):** 特定のキャラクターになりきって対話するためのプロンプト
+*   **教育 (Education):** 算数などの学習支援用プロンプト
+*   **プログラミング (Programming):** Java, Salesforce (Apex, LWC)など、特定の技術に関するレビューやコード生成の支援
+*   **翻訳 (Translation):** 日本語と英語の相互翻訳用プロンプト
+*   その他、ブログ作成、スポーツなど
+
+## 使い方 (How to Use)
+
+1.  興味のあるカテゴリのフォルダに移動します。
+2.  `.md` ファイルを開き、中のテキストをコピーします。
+3.  ChatGPTなどの対話画面に貼り付けて、プロンプトとして実行します。
+
+## コントリビューション (Contributing)
+
+新しいプロンプトの追加や、既存プロンプトの改善に関するIssueやPull Requestを歓迎します。
+
+## ライセンス (License)
+
+このリポジトリ内の成果物は、Apache License, Version 2.0 の下でライセンスされています。詳細は [LICENSE](LICENSE) ファイルをご覧ください。
+
+ただし、個々のプロンプトファイル (`.md`) の内容については、ライセンスの適用範囲外とします。これらのプロンプトは自由にご利用・改変いただけます。
+
+---
+
+This repository is licensed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for details.
+
+However, the content of individual prompt files (`.md`) is out of scope of the license. You can freely use and modify these prompts.
