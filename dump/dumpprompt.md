@@ -1,4 +1,4 @@
-# DumpPrompt v20250630c
+# DumpPrompt v20250701a
 
 # TASK
 Using only the conversation history **before this message** (exclude this task prompt),
