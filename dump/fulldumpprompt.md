@@ -18,17 +18,6 @@ and preceded by the suggested filename as a heading:
 ## README.md
 
 ```markdown
-<!--
-⏪ Session Restore Guide
-This README, plus prompt_log.mmd and prompt_log.jsonl, constitute a condensed log
-of a previous ChatGPT session.
-
-📌 How to use in a new session:
-1. Paste these three fenced blocks into the first message.
-2. The assistant should treat them as prior conversation history.
-3. Unless explicitly asked, do NOT echo the logs back—just continue the dialogue.
--->
-
 # Prompt Session Overview
 **Purpose**: …
 **Background**: …
