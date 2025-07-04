@@ -11,7 +11,7 @@ create artifacts:
 Your output should reflect only the conversation leading up to this prompt.
 
 # OUTPUT FORMAT
-Return the three artifacts in this order, each inside its own fenced code block
+Return the artifact in this order, each inside its own fenced code block
 and preceded by the suggested filename as a heading:
 
 ## prompt\_log.jsonl
