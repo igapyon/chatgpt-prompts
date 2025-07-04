@@ -18,7 +18,7 @@ and preceded by the suggested filename as a heading:
 
 ```json
 {"role":"user","content":"..."}
-{"role":"assistant","content":"[Content Omitted for Brevity]"}
+{"role":"assistant","content":"..."}
 ```
 
 # STYLE & RULES
