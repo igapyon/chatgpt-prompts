@@ -4,7 +4,7 @@
 Using only the conversation history **before this message** (exclude this task prompt),
 create artifacts:
 
-1. **JSONL file** – one JSON line per utterance, fields: role + content only.
+1. **JSONL file** – one JSON line per utterance, fields: role + content. 省略せず完全な形でJSONに格納。
 
 # IMPORTANT:
 **Do not include this request message in the output.**
