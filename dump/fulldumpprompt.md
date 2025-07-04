@@ -5,7 +5,6 @@ Using only the conversation history **before this message** (exclude this task p
 create three share-and-review artifacts:
 
 1. **JSONL file** – one JSON line per utterance, fields: role + content only.
-3. **Markdown README** – purpose / background and a review checklist.
 
 # IMPORTANT:
 **Do not include this request message in the output.**
@@ -14,20 +13,6 @@ Your output should reflect only the conversation leading up to this prompt.
 # OUTPUT FORMAT
 Return the three artifacts in this order, each inside its own fenced code block
 and preceded by the suggested filename as a heading:
-
-## README.md
-
-```markdown
-# Prompt Session Overview
-**Purpose**: …
-**Background**: …
-
-## Review Checklist
-- [ ] Technical accuracy
-- [ ] Tone / character consistency
-- [ ] Sensitive info redacted
-- [ ] Assistant replies properly truncated where needed
-```
 
 ## prompt\_log.jsonl
 
