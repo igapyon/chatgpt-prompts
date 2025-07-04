@@ -2,7 +2,7 @@
 
 # TASK
 Using only the conversation history **before this message** (exclude this task prompt),
-create three share-and-review artifacts:
+create artifacts:
 
 1. **JSONL file** – one JSON line per utterance, fields: role + content only.
 
