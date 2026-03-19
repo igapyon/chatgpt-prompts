@@ -2,22 +2,29 @@
 
 Copyright 2025 Toshiki Iga
 
-このリポジトリは、ChatGPTをはじめとする生成AIで利用できる、様々な日本語プロンプTをまとめたものです。
+このリポジトリは、ChatGPTをはじめとする生成AIで利用できる、様々な日本語プロンプトをまとめたものです。
 
 This repository is a collection of various Japanese prompts that can be used with Generative AI, including ChatGPT.
 
 ## 概要 (Overview)
 
-日常的なタスクから専門的な作業まで、幅広い用途で使えるプロンプトをカテゴリ別に分類しています。コピー＆ペーストしてすぐに使えるように、各プロンプトは個別のMarkdownファイルとして管理されています。
+日常的なタスクから専門的な作業まで、幅広い用途で使えるプロンプトをカテゴリ別に分類しています。コピー＆ペーストしてすぐに使えるように、各プロンプトは個別の Markdown ファイルとして管理されています。
 
-## 主なプロンプトカテゴリ (Categories)
+なお、私の生成AIプロンプト作成の重心は、次のアプリおよびリポジトリへ移動しています。
 
-*   **記事編集 (Article Editing):** 新聞記事や一般的な文章の校正・編集用プロンプト
-*   **キャラクター (Character):** 特定のキャラクターになりきって対話するためのプロンプト
-*   **教育 (Education):** 算数などの学習支援用プロンプト
-*   **プログラミング (Programming):** Java, Salesforce (Apex, LWC)など、特定の技術に関するレビューやコード生成の支援
-*   **翻訳 (Translation):** 日本語と英語の相互翻訳用プロンプト
-*   その他、ブログ作成、スポーツなど
+* リポジトリ: <https://github.com/igapyon/local-html-tools/tree/devel/docs/prompt>
+* アプリ: <https://igapyon.github.io/local-html-tools/prompt/prompt-gen.html>
+
+## 主なディレクトリ (Directories)
+
+* **記事編集 (`article-editor/`):** 記事や文章の校正・編集用プロンプト
+* **ブログ (`blog/`):** ブログ執筆支援用プロンプト
+* **キャラクター (`character/`):** 特定のキャラクターになりきって対話するためのプロンプト
+* **教育 (`education/`):** 算数などの学習支援用プロンプト
+* **プロンプト (`prompt/`):** 汎用または実験的なプロンプト
+* **ダンプ (`dump/`):** ダンプ用途のプロンプト
+
+`character/experimental/` および `prompt/experimental/` には、整理途中または実験的なプロンプトを配置しています。
 
 ## 使い方 (How to Use)
 
